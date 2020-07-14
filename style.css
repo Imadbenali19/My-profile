@@ -1,0 +1,70 @@
+body{
+  font-weight: bold;
+  font-size: 25px;
+  font-family: monospace;
+  text-align-last: left;
+}
+
+p{
+  text-align: justify;
+}
+
+a{
+  text-decoration: none;
+}
+
+.url-color .urlcolor2{
+  color: purple;
+}
+
+.url-color:hover{
+  color:green;
+}
+
+.url-color2:hover{
+  color:red;
+}
+
+#container{
+  width:600px;
+  margin:50px auto;
+  text-align:center;
+}
+
+h1{
+  color: red;
+  font-weight: 600;
+  font-family: fantasy;
+  font-style: italic;
+}
+
+.img-desing{
+  border-radius: 100%;
+  border-style: solid;
+  border-color: initial;
+}
+
+.list-inline li{
+  text-align: justify;
+}
+
+.item-design{
+  list-style: none;
+  display: inline;
+  font-size: xxx-large;
+  padding-left: 50px;
+}
+
+.url-hover:hover{
+  color:grey;
+}
+
+@media (max-width: 50%) {
+
+  #container {
+    width:300px;
+    margin:50px auto;
+    text-align:center;
+  }
+
+}
